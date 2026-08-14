@@ -52,7 +52,7 @@ Your JIRA details here
 - Negative Instruction — Explicitly prevents the model from inventing requirements.
 - Step by step — Encourages to perform the provided steps explicitly.
 - Structured Output — Forces a consistent Summary, Description, and Test Step/Expected Outcome format.
-
+---
 
 ## 2. Email generator
 
@@ -98,6 +98,7 @@ Your email context here
 - Conditional Prompting — Handles the case where important information is missing.
 - Context Delimiters — Uses <emailContext> and </emailContext> to clearly separate the input context from the instructions.
 - Output Formatting — Specifies the exact structure: Subject followed by the email body.
+---
 
 ## 3. Travel Planning Guide
 
@@ -244,6 +245,7 @@ List the reliable sources used for time-sensitive information such as prices, op
 - Conditional Prompting — Handles situations such as insufficient budget, unsuitable travel month, and mismatched preferences.
 - Output Formatting — Specifies exactly how the itinerary and budget breakdown should be presented.
 - Context Delimiters — Separates the input variables from the instructions and expected output structure.
+---
 
 ## 4. Fitness Plan Generator
 
@@ -335,7 +337,7 @@ Limitations: {{Limitations}}
 - Conditional Prompting — Handles missing information and unrealistic goals/schedules.
 - Context Delimiters — Uses <fitnessContext> and </fitnessContext>.
 - Output Formatting — Defines a consistent weekly-plan structure.
-
+---
 
 ## 5. Study Plan Generator
 
@@ -432,3 +434,4 @@ Preferred Learning Style: {{Learning Style}}
 - Conditional Prompting — Handles insufficient study time and missing/unclear information.
 - Context Delimiters — Uses <studyContext> and </studyContext>.
 - Output Formatting — Defines a consistent weekly study-plan structure.
+---
